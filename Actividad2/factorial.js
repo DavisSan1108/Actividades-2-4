@@ -6,10 +6,14 @@ function calcularFactorial() {
         return;
     }
 
-    let factorial = 1;
-    for (let i = 1; i <= numero; i++) {
-        factorial *= i;
-    }
-
+    const factorial = factorialRecursivo(numero);
     document.getElementById('resultado').innerText = `El factorial de ${numero} es ${factorial}`;
 }
+
+function factorialRecursivo(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+    return n * factorialRecursivo(n - 1);
+}
+
