@@ -1,0 +1,67 @@
+/* Estilo vintage para la calculadora de factorial con fondo de imagen */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('image/pizarra-inscrita-formulas-calculos-cientificos.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* La imagen cubrirá todo el fondo */
+    background-position: center; /* La imagen se centrará en la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: #4b3832; /* Color marrón oscuro para el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(227, 213, 202, 0.9); /* Fondo beige con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 2px solid #d3a588; /* Borde marrón claro */
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #6b4226; /* Color marrón chocolate */
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px solid #b8a38e; /* Borde beige oscuro */
+    border-radius: 5px;
+    background-color: #fbf7f0; /* Fondo casi blanco */
+    color: #4b3832;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #b8a38e; /* Color beige oscuro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #6b4226; /* Color marrón chocolate al pasar el mouse */
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6b4226;
+}

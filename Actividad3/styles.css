@@ -1,0 +1,70 @@
+/* Estilo futurista para la calculadora de Fibonacci */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, #1a1a1a, #333333); /* Fondo degradado */
+}
+
+.container {
+    background-color: #1a1a1a; /* Fondo oscuro para el contenedor */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.7), 0 0 40px rgba(0, 255, 255, 0.3); /* Sombra brillante */
+    text-align: center;
+    border: 2px solid #00ffff; /* Borde cian brillante */
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    font-size: 28px;
+    color: #00ffff; /* Color cian brillante */
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type="number"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 1px solid #00ffff;
+    border-radius: 6px;
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #00ffff; /* Color cian brillante */
+    color: #0d0d0d; /* Texto oscuro */
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #00b3b3; /* Cian más oscuro al pasar el mouse */
+}
+
+#resultado {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
